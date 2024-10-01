@@ -1,4 +1,5 @@
 # Ludo Game - C++ First Semester Project
+## By Shakeel Khan
 
 ## Project Overview
 This is a **Ludo Game** developed in **C++** as my first-semester project. The game uses **graphics** to create a colorful and interactive Ludo board, simulating the classic Ludo gameplay. The project was built without using Object-Oriented Programming (OOP) concepts, focusing more on **functions**, **structures**, and other fundamental C++ concepts.
