@@ -27,17 +27,13 @@ The game is entirely built using **C++ graphics**, so it is crucial to set up th
 1. **Download the required files** (graphics.h, winbgim.h, libbgi.a) and place them in the correct directories for your IDE.
 2. **Add the graphics library** to your project:
     - In **Code::Blocks**:
-      - Go to `Settings -> Compiler -> Linker Settings`.
-      - Add `libbgi.a` to the Link Libraries and set the `Other Linker Options` to:
-        ```
+      - Go to 'Settings -> Compiler -> Linker Settings'.
+      - Add 'libbgi.a' to the Link Libraries and set the 'Other Linker Options' to:
         -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
-        ```
     - In **Dev C++**:
-      - Copy `graphics.h` and `winbgim.h` to the include folder and `libbgi.a` to the lib folder.
-      - Go to `Project -> Project Options -> Parameters` and add the following in `Linker`:
-        ```
+      - Copy 'graphics.h'' and 'winbgim.h' to the include folder and 'libbgi.a' to the lib folder.
+      - Go to 'Project -> Project Options -> Parameters' and add the following in 'Linker':
         -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
-        ```
 
 3. **Restart your IDE** to ensure the graphics library is configured correctly.
 
